@@ -105,6 +105,33 @@ gcc fila/main.c -o fila
 
 ./fila
 ```
+
+
+### Pilha
+
+
+Para compilar e executar o programa da pilha:
+
+
+```bash
+
+gcc pilha/main.c pilha/pilha.c -o pilha
+
+./pilha
+```
+
+
+Para compilar e executar os testes da pilha (simulação de desfazer ações):
+
+
+```bash
+
+gcc pilha/test_pilha.c pilha/pilha.c -o test_pilha
+
+./test_pilha
+```
+
+
 ---
 
 ## Colaboradores
