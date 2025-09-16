@@ -104,3 +104,13 @@ Para compilar e executar o programa da fila:
 gcc fila/main.c -o fila
 
 ./fila
+```
+---
+
+## Colaboradores
+- Lucas Werpp Franco - RM: 556044
+- Lucas Alves Antunes Almeida - RM: 566362
+- Lucca Rosseto Rezende - RM: 564180
+- Massayoshi Bando Fogaça e Silva - RM: 561779
+
+---
