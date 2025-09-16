@@ -43,26 +43,26 @@ void mostrarFila() {
 }
 
 int main() {
+  printf("=== Caso de Teste 1: Inserção até encher ===\n");
 
-  enqueue(101, "Massayoshi");
-  enqueue(101, "Alvez");
-  enqueue(102, "Franco");
-  enqueue(103, "Rezende");
-  enqueue(104, "Marcelo");
-  enqueue(105, "Ronaldo");
+  enqueue(101, "Ana");
+  enqueue(102, "Bruno");
+  enqueue(103, "Carlos");
+  enqueue(104, "Daniela");
+  enqueue(105, "Eduardo");  // Último espaço válido
+  enqueue(106, "Fernanda"); // Deve exibir "Fila cheia!"
+
   mostrarFila();
 
+  printf("\n=== Caso de Teste 2: Remoção até esvaziar ===\n");
   while (qtd > 0) {
-    printf("\nAtendimento: %s (senha %d)\n", fila[inicio].nome, fila[inicio].senha);
-    dequeue();
+    Paciente p = dequeue();
+    printf("Atendido: %s (senha %d)\n", p.nome, p.senha);
     mostrarFila();
   }
-  return 0;
 
-  printf("\nAtendimento: %s (senha %d)\n", fila[inicio].nome,
-         fila[inicio].senha);
+  // Tentativa de remover de uma fila já vazia
   dequeue();
-  mostrarFila();
 
   return 0;
 }
