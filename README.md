@@ -1,6 +1,7 @@
 # estruturas-dados-fila-pilha-c
 
-'''
+```
+
           ___   ____
         /' --;^/ ,-_\     \ | /
        / / --o\ o-\ \\   --(_)--
@@ -13,7 +14,7 @@
       ,;;;;;;;;;;;;;;;;;;;;;;;;,.
 ~~,;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,  ______   ---------   _____     ------
-'''
+```
 
 Este projeto apresenta implementações básicas de estruturas de dados fundamentais: **Fila Circular** e **Pilha**, ambas em linguagem C. Além das implementações, o projeto inclui exemplos de uso e testes para facilitar o entendimento e validação das funcionalidades.
 
